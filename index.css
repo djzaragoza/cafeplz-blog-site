@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Andada', sans-serif;
 }
 
-/* CSS sprint challenge below */
+/* CSS styling below */
 
 h2, h3 {
     font-size: 20px;
@@ -81,7 +81,7 @@ body {
 }
 
 .header h1 {
-    font-size: 50px;
+    font-size: 100px;
     margin-bottom: -20px;
     font-family: 'Andada', sans-serif;
 }
@@ -120,6 +120,12 @@ body {
     width: 25%;
     background-color: #f1f1f1;
     padding-left: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
 }
 
 .card h3 {
