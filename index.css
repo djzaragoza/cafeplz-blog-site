@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1.5;
+	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -47,31 +47,16 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
 
-html, body {
-    height: 100%;
-    font-family: 'Andada', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Andada', sans-serif;
-}
-
-/* CSS styling below */
-
-h2, h3 {
+ h2, h3 {
     font-size: 20px;
-}
+} 
 
-body {
+ body {
+    width: 1280px;
     padding: 10px;
     background: #f1f1f1;
-}
+} 
 
 .header {
     padding: 30px;
