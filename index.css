@@ -162,7 +162,7 @@ a {
     clear: both;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .leftcolumn, .rightcolumn {
         width: 100%;
         padding: 0;
