@@ -107,6 +107,7 @@ a {
 
 .card h2 {
     font-size: 35px;
+    text-align: center;
 }
 
 .card p {
@@ -129,6 +130,12 @@ a {
 }
 
 .medium {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.techcrunch {
     width: 100%;
     text-align: center;
     margin-top: 15px;
