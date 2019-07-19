@@ -187,7 +187,10 @@ a {
 
 
 footer {
-    width: 100%;
-    background: lightgray;
-
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 2px double #e0e0e0;
+  border-radius: 10px;
+  text-align: center;
 }
