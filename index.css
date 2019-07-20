@@ -55,7 +55,7 @@ table {
 /* styling */
 
  body {
-    padding: 10px;
+    padding: 20px;
     background: #f1f1f1;
     width: 100%;
 } 
@@ -113,7 +113,7 @@ a {
    padding: 4px 4px;
    margin: 0;
    text-decoration: none;
-   background: crimson;
+   background: orangered;
    color: #ffffff;
    font-family: sans-serif;
    font-size: 15px;
@@ -135,6 +135,13 @@ a {
 
 .btn:active {
     transform: scale(0.99);
+}
+
+.card a {
+    font-size: 20px;
+    justify-content: space-evenly;
+    color: white;
+    background-color: solid black;
 }
 
 .card h2 {
