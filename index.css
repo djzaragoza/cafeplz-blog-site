@@ -57,7 +57,7 @@ table {
  body {
     padding: 10px;
     background: #f1f1f1;
-    
+    width: 100%;
 } 
 
 .header {
@@ -80,6 +80,7 @@ table {
 }
 
 .topnav a {
+    font-size: 22px;
     float: left;
     display: block;
     color: #f2f2f2;
@@ -101,13 +102,46 @@ table {
 }
 
 a {
-    color: brown;
+    color: lightgrey;
     font-size: 25px;
 }
 
+.btn {
+   display: inline-block;
+   border: none;
+   border-radius: 20px;
+   padding: 4px 4px;
+   margin: 0;
+   text-decoration: none;
+   background: crimson;
+   color: #ffffff;
+   font-family: sans-serif;
+   font-size: 15px;
+   cursor: pointer;
+   text-align: center;
+   transition: background 250ms ease-in-out, transform 150ms ease;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+.btn:hover, .btn:focus {
+    background: #0053ba;
+}
+
+.btn:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+.btn:active {
+    transform: scale(0.99);
+}
+
 .card h2 {
+    width: 100%;
     font-size: 35px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .card p {
@@ -139,6 +173,14 @@ a {
     width: 100%;
     text-align: center;
     margin-top: 15px;
+}
+
+.hackers {
+    font-weight: 800;
+    text-decoration: underline; 
+    color: crimson;
+    font-size: 30px;
+    line-height: 1.5;
 }
 
 .fakeimg {
@@ -176,19 +218,10 @@ a {
     }
 }
 
-.success-image {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 20px;
-    margin-right: 20px;
-    justify-content: right;
-    background: solid black;
-}
-
 
 footer {
   color: #22283B;
-  background: #f4f4f4;
+  background: lightgray;
   padding: 10px 0;
   border: 2px double #e0e0e0;
   border-radius: 10px;
