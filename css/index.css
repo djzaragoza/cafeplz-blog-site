@@ -772,7 +772,7 @@ img {
     width: 56%;
     height: 56px;
     border-radius: 30px;
-    background: #ff52bf;
+    background: rgb(204, 85, 85);
     color: #ffffff;
     border: 1px solid #ff52bf;
     -webkit-box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.38);
